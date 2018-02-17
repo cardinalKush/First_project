@@ -4,7 +4,7 @@ import os
 import sys
 
 server_socket = socket.socket()
-server_socket.bind(('', 9090))
+server_socket.bind(('', 2222))
 server_socket.listen(10)
 
 # while True:
